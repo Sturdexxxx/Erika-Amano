@@ -12,8 +12,8 @@ LOG.setLevel(level=logging.INFO)
 LOG.info('❤️ Checking Bot Variables.....')
 TRIGGERS = os.environ.get("TRIGGERS", "/ !").split(" ")
 BOT_TOKEN = os.environ.get('BOT_TOKEN', '6247431055:AAHV-R7L_qOfRpWJdmOXVGumN5OcmsBf-lE') #BOT Token Add
-API_ID = int(os.environ.get('API_ID', 456789)) #Telgram Api id
-APP_HASH = os.environ.get('APP_HASH', 'your api id')# Telgram App hash  
+API_ID = int(os.environ.get('API_ID', 4665778)) #Telgram Api id
+APP_HASH = os.environ.get('APP_HASH', '10e3ed833b0d09699973420d45359409')# Telgram App hash  
 OWNER_ID = int(os.environ.get('OWNER_ID', 5531584953))
 MONGO_DB = os.environ.get("MONGO_DB", 'mongodb+srv://starvaccine12:ndgdluGNEmOGPCKl@cluster0.5esahzs.mongodb.net/?retryWrites=true&w=majority') #MONGO DB FOR ANIME DATA
 FILES_CHANNEL = os.environ.get("FILES_CHANNEL", -1001848663390)
